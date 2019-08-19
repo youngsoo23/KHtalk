@@ -19,6 +19,7 @@ public class fListAction implements BoardActionImp{
 		if(pageNum==null || pageNum.equals("null")|| pageNum.equals("")) {
 			pageNum="1";
 		}
+		System.out.println("fdsdf");
 		
 		int currentPage = Integer.parseInt(pageNum);
 		
